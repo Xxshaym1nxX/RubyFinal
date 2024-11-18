@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label tabindex="-1" text="Game over!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="loss" style="font-size: 200%; height: auto; width: auto; position: absolute; top: 19%; left: 8%;" />
+    <ui:Label tabindex="-1" text="Press &apos;R&apos; to Restart" parse-escape-sequences="true" display-tooltip-when-elided="true" name="restart" style="width: auto; height: auto; font-size: 100%; -unity-text-align: upper-center; position: absolute; top: 49%; left: 12%; right: auto; bottom: auto;" />
+</ui:UXML>
