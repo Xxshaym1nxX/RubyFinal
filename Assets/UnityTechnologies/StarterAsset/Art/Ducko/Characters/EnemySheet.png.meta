@@ -63,7 +63,7 @@ TextureImporter:
       213: 21300038
     second: MrClockworkEmpty
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -170,568 +170,589 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GolemBoilerSheet_0
+      name: EnemySheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 1536
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 632e3cb22d53b62489c5292cc9c29272
-      internalID: -1338850296
+      spriteID: c3afd84414c6fc44e81cf1e23209ae4b
+      internalID: -820672232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_1
+      name: EnemySheet_1
       rect:
         serializedVersion: 2
         x: 256
         y: 1536
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e55b775644613d49a588a8c9ce42b7f
-      internalID: -1762464348
+      spriteID: 414df0cbe73b04a42a5c89069554116a
+      internalID: -497745399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_2
+      name: EnemySheet_2
       rect:
         serializedVersion: 2
         x: 512
         y: 1536
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb1fdafd4ca08db4f90d13a74cb78a01
-      internalID: -1051306944
+      spriteID: 07dc8399130d98943bab8ddbd8356fe8
+      internalID: 277967147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_3
+      name: EnemySheet_3
       rect:
         serializedVersion: 2
         x: 768
         y: 1536
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0ceb379d80fbcd4b920d737550bfca9
-      internalID: -1442120357
+      spriteID: fd20e303d9d0c9d44959b23ce683f247
+      internalID: 1488576148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_4
+      name: EnemySheet_4
       rect:
         serializedVersion: 2
         x: 0
         y: 1280
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12b7ab9cc8524664b966157891a39e3b
-      internalID: -1048356953
+      spriteID: afcbcb419681f094b862d276c3dec0a0
+      internalID: -1048118728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_5
+      name: EnemySheet_5
       rect:
         serializedVersion: 2
         x: 256
         y: 1280
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3023c174887d3b44aeb0e23ac28be3a
-      internalID: 1157053462
+      spriteID: 413301cf47f622d42a3a32ace1076b66
+      internalID: -1347680012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_6
+      name: EnemySheet_6
       rect:
         serializedVersion: 2
         x: 512
         y: 1280
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5cc9f9bba16aaa4a802969d953a25f3
-      internalID: -2032507910
+      spriteID: 006b74ac7b83cee4d880ac1f3c803fc0
+      internalID: -110833331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_7
+      name: EnemySheet_7
       rect:
         serializedVersion: 2
         x: 768
         y: 1280
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 570216c6d34415f40b738486a30f71ab
-      internalID: -1706280890
+      spriteID: 329b2c3f6cc190940b27bf20b8e0ccc3
+      internalID: -1026995054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_8
+      name: EnemySheet_8
       rect:
         serializedVersion: 2
         x: 0
         y: 1024
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 073d2a5fd150cc94090ecb82d36450ec
-      internalID: -1621142600
+      spriteID: 50538112e21644b4490e67f5f9fddca5
+      internalID: 297295828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_9
+      name: EnemySheet_9
       rect:
         serializedVersion: 2
         x: 256
         y: 1024
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 426a5ca37e7f35b4fa1e487210946a48
-      internalID: -494756775
+      spriteID: 1eb2f2391d8e2f842a51221303f2c921
+      internalID: 1815832038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_10
+      name: EnemySheet_10
       rect:
         serializedVersion: 2
         x: 512
         y: 1024
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3399f716390022643b76cf31ca532af7
-      internalID: 147021943
+      spriteID: 15b5428c0d3c6644da7067f8832b945b
+      internalID: -2093045044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_11
+      name: EnemySheet_11
       rect:
         serializedVersion: 2
         x: 768
         y: 1024
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c934ff9811172a458e93492f52cc8b5
-      internalID: -184236641
+      spriteID: 5c3f48a733c83074892295380ff560e4
+      internalID: -228025446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_12
+      name: EnemySheet_12
       rect:
         serializedVersion: 2
         x: 0
         y: 768
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71df1aef5fca4494481514cc9f22fa87
-      internalID: -145476445
+      spriteID: 80c0491310b2a2947979e1c313a9ff37
+      internalID: -415713685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_13
+      name: EnemySheet_13
       rect:
         serializedVersion: 2
         x: 256
         y: 768
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6714c0b8671a394cbf5538be6fb95f7
-      internalID: 1433512188
+      spriteID: 26acad8752b17b94f844164c89ffd061
+      internalID: 605414964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_14
+      name: EnemySheet_14
       rect:
         serializedVersion: 2
         x: 512
         y: 768
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fc6af83c27c4f340995aa1ca038790e
-      internalID: -743635758
+      spriteID: a7e6c2c29bda15540a4497b43a965254
+      internalID: 1004143680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_15
+      name: EnemySheet_15
       rect:
         serializedVersion: 2
         x: 768
         y: 768
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea3b36bbcadda354aa9654aa97fd782f
-      internalID: 1255941569
+      spriteID: 05a4e2a88f18f8d4989bb707a25ca78b
+      internalID: -504860953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_16
+      name: EnemySheet_16
       rect:
         serializedVersion: 2
         x: 0
         y: 512
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2017dcb137a398940a7ff582b2f2801e
-      internalID: 390058842
+      spriteID: 86c615bb8d4e0dd45bdce72eba5eb6ba
+      internalID: 1970339210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_17
+      name: EnemySheet_17
       rect:
         serializedVersion: 2
         x: 256
         y: 512
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c62539f3b1156a244a80950d5c2c196e
-      internalID: 1866996182
+      spriteID: 7149bc4df8940ce4091253b1f47a6ba4
+      internalID: 1613840955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_18
+      name: EnemySheet_18
       rect:
         serializedVersion: 2
         x: 512
         y: 512
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92da50031b0d47943a6ba7407a7f7950
-      internalID: 1581615660
+      spriteID: 8678debe2065c704fb63f7ff1322ee19
+      internalID: 1078221288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_19
+      name: EnemySheet_19
       rect:
         serializedVersion: 2
         x: 768
         y: 512
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3d65548906d567409bfcd5ca1050a3f
-      internalID: -2112457510
+      spriteID: 05835046da6695140979fd2811759f42
+      internalID: -1196229788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_20
+      name: EnemySheet_20
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a7fbc5ce9be24b47aabd99980e0d83f
-      internalID: 1484627788
+      spriteID: 64218f3cbe477854d968cef8c649e6bd
+      internalID: -1676904096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_21
+      name: EnemySheet_21
       rect:
         serializedVersion: 2
         x: 256
         y: 256
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f52856b850198c84eb6b2a0a6ad294dc
-      internalID: 577797062
+      spriteID: ced07ee8fc17efd4ca632f86cb9114b7
+      internalID: -807685053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_22
+      name: EnemySheet_22
       rect:
         serializedVersion: 2
         x: 512
         y: 256
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 915ce358f06d2db4aa238609c079702e
-      internalID: 1722305732
+      spriteID: da3da52ec2dbb3a4db9a85dd54d0585b
+      internalID: 832624425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_23
+      name: EnemySheet_23
       rect:
         serializedVersion: 2
         x: 768
         y: 256
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6d5684d942575e4a8e230b474c4fb73
-      internalID: 1240430735
+      spriteID: e3fdd210fa5d866419c32ad345e3ffe2
+      internalID: -1279706688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_24
+      name: EnemySheet_24
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbd3deb420e1bd248abfb4ba6cca544d
-      internalID: -233830377
+      spriteID: 9c2f4442992c7e74894580b64dfa70de
+      internalID: -1816174976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_25
+      name: EnemySheet_25
       rect:
         serializedVersion: 2
         x: 256
         y: 0
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f86b357a0ce39c04098187cc297afa65
-      internalID: 286099929
+      spriteID: d0b1d7a4347d55f47bc91cb30f80bdf5
+      internalID: 923260577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemBoilerSheet_26
+      name: EnemySheet_26
       rect:
         serializedVersion: 2
         x: 512
         y: 0
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b7f5605d936ce243b7e3f994bcf27c0
-      internalID: -958390211
+      spriteID: fc47848a79b907940bd0bd374e878b42
+      internalID: 398943808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySheet_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea61fadb9a23e2499219429aaeb4641
+      internalID: 1853826569
       vertices: []
       indices: 
       edges: []
@@ -747,33 +768,34 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GolemBoilerSheet_0: -1338850296
-      GolemBoilerSheet_1: -1762464348
-      GolemBoilerSheet_10: 147021943
-      GolemBoilerSheet_11: -184236641
-      GolemBoilerSheet_12: -145476445
-      GolemBoilerSheet_13: 1433512188
-      GolemBoilerSheet_14: -743635758
-      GolemBoilerSheet_15: 1255941569
-      GolemBoilerSheet_16: 390058842
-      GolemBoilerSheet_17: 1866996182
-      GolemBoilerSheet_18: 1581615660
-      GolemBoilerSheet_19: -2112457510
-      GolemBoilerSheet_2: -1051306944
-      GolemBoilerSheet_20: 1484627788
-      GolemBoilerSheet_21: 577797062
-      GolemBoilerSheet_22: 1722305732
-      GolemBoilerSheet_23: 1240430735
-      GolemBoilerSheet_24: -233830377
-      GolemBoilerSheet_25: 286099929
-      GolemBoilerSheet_26: -958390211
-      GolemBoilerSheet_3: -1442120357
-      GolemBoilerSheet_4: -1048356953
-      GolemBoilerSheet_5: 1157053462
-      GolemBoilerSheet_6: -2032507910
-      GolemBoilerSheet_7: -1706280890
-      GolemBoilerSheet_8: -1621142600
-      GolemBoilerSheet_9: -494756775
+      EnemySheet_0: -820672232
+      EnemySheet_1: -497745399
+      EnemySheet_10: -2093045044
+      EnemySheet_11: -228025446
+      EnemySheet_12: -415713685
+      EnemySheet_13: 605414964
+      EnemySheet_14: 1004143680
+      EnemySheet_15: -504860953
+      EnemySheet_16: 1970339210
+      EnemySheet_17: 1613840955
+      EnemySheet_18: 1078221288
+      EnemySheet_19: -1196229788
+      EnemySheet_2: 277967147
+      EnemySheet_20: -1676904096
+      EnemySheet_21: -807685053
+      EnemySheet_22: 832624425
+      EnemySheet_23: -1279706688
+      EnemySheet_24: -1816174976
+      EnemySheet_25: 923260577
+      EnemySheet_26: 398943808
+      EnemySheet_27: 1853826569
+      EnemySheet_3: 1488576148
+      EnemySheet_4: -1048118728
+      EnemySheet_5: -1347680012
+      EnemySheet_6: -110833331
+      EnemySheet_7: -1026995054
+      EnemySheet_8: 297295828
+      EnemySheet_9: 1815832038
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

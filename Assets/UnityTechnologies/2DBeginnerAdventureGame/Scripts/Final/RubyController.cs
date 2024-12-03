@@ -21,10 +21,21 @@ public class RubyController : MonoBehaviour
     // ======== PROJECTILE ==========
     public GameObject projectilePrefab;
     public InputAction launchAction;
+    //Added for this assignment, the first 2 are for cooldown, the other two help the power up. One to check if it is active, the other sets the size.
+    private float nextShot = 0.25f;
+    [SerializeField]
+    private float fireDelay = 0.5f;
+    public bool powerUpActive;
+    [SerializeField]
+    private int projectileSize;
 
     // ======== AUDIO ==========
     public AudioClip hitSound;
     public AudioClip shootingSound;
+    //These two audioclips were added for this assignment. soundPlaying is to have the sound only play once
+    public AudioClip victorySound;
+    public AudioClip gameOverSound;
+    bool soundPlaying;
     
     // ======== HEALTH ==========
     public int health
@@ -70,12 +81,17 @@ public class RubyController : MonoBehaviour
         
         // ==== AUDIO =====
         audioSource = GetComponent<AudioSource>();
-        
+        // Added for later code.
+        soundPlaying = false;
+
         // ==== ACTIONS ====
         launchAction.Enable();
         dialogAction.Enable();
 
         launchAction.performed += LaunchProjectile;
+
+        //Added for this assignment, starts the boolean at false
+        powerUpActive = false;
     }
 
     void Update()
@@ -96,12 +112,24 @@ public class RubyController : MonoBehaviour
         if (score > 3)
         {
             youWin.SetActive(true);
+            // Checks if a victory/game over sound is already playing, and if not, plays a victory jingle, then sets the variable to false
+            if (soundPlaying == false)
+            {
+                PlaySound(victorySound);
+                soundPlaying = true;
+            }
             gameOverBool = true;
             speed = 0;
         }
         if (currentHealth <= 0)
         {
             gameOver.SetActive(true);
+            // Checks if a victory/game over sound is already playing, and if not, plays a game over jingle, then sets the variable to false
+            if (soundPlaying == false)
+            {
+                PlaySound(gameOverSound);
+                soundPlaying = true;
+            }
             gameOverBool = true;
             speed = 0;
         }
@@ -188,13 +216,22 @@ public class RubyController : MonoBehaviour
     // =============== PROJECTICLE ========================
     void LaunchProjectile(InputAction.CallbackContext context)
     {
-        GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);
+        //Added a cooldown to the projectile
+        if (Time.time > nextShot)
+        {
+            GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);
 
-        Projectile projectile = projectileObject.GetComponent<Projectile>();
-        projectile.Launch(lookDirection, 300);
-        
-        animator.SetTrigger("Launch");
-        audioSource.PlayOneShot(shootingSound);
+            Projectile projectile = projectileObject.GetComponent<Projectile>();
+            projectile.Launch(lookDirection, 300);
+            //If the power up is active, the projectile will scale up, from testing, I noticed this includes the hit box too.
+            if (powerUpActive)
+            {
+                projectile.transform.localScale = new Vector3(projectileSize, projectileSize, projectileSize);
+            }
+            animator.SetTrigger("Launch");
+            audioSource.PlayOneShot(shootingSound);
+            nextShot = Time.time + fireDelay;
+        }
     }
     
     // =============== SOUND ==========================
@@ -209,4 +246,11 @@ public class RubyController : MonoBehaviour
     {
         score += scoreAmount;
     }
+
+    //Added for assignment, makes the boolean "powerUpActive" true to make projectiles larger
+    public void ActivatePowerUp ()
+    {
+        powerUpActive = true;
+    }
+
 }

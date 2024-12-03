@@ -174,10 +174,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7be5c9220d0d0504591c18793dd6ad18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverText: {fileID: 2687568343179125844, guid: 26809edb52cf9be409ed3e120fb482a5,
-    type: 3}
-  youWinText: {fileID: 3464783283471897282, guid: 58aa21ec014a224469c8a7ab2925bc1a,
-    type: 3}
+  gameOver: {fileID: 0}
+  youWin: {fileID: 0}
+  gameOverBool: 0
   speed: 4
   moveAction:
     m_Name: Move
@@ -254,6 +253,8 @@ MonoBehaviour:
     m_Flags: 0
   hitSound: {fileID: 8300000, guid: c7d3a91ac32abbe47a8931a8ffc37bc6, type: 3}
   shootingSound: {fileID: 8300000, guid: c87de0cae68cdbb409eec8ba23a860d0, type: 3}
+  victorySound: {fileID: 8300000, guid: 512c38f79ee077544bf4aa6b706074b3, type: 3}
+  gameOverSound: {fileID: 8300000, guid: 476e73b2d7132fa4a99972d51dc27560, type: 3}
   dialogAction:
     m_Name: Dialog
     m_Type: 1

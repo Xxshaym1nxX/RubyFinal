@@ -3,7 +3,7 @@ guid: cfd6f82ef4dc6d74ab5d4a8971d25eee
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -110,337 +110,421 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: VendingWalkUp1
+      name: EnemySheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1023
+        y: 1023.2
         width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ae3b3190ad70064a8906b97b9975b0d
-      internalID: 878118743
+      spriteID: 6e08dd1a4e51ab24b9a604ff2e95cb59
+      internalID: -909126937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VendingWalkUp2
+      name: EnemySheet_1
       rect:
         serializedVersion: 2
         x: 256
-        y: 1023
+        y: 1023.2
         width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1449784ff450d174eb46d40919017a70
-      internalID: 541123909
+      spriteID: 9c13c91563a49ba499131043ad8f1f33
+      internalID: -2064392580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VendingWalkUp3
+      name: EnemySheet_2
       rect:
         serializedVersion: 2
         x: 512
-        y: 1023
+        y: 1023.2
         width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2a1bee7761e02d4e8cc21878687cdad
-      internalID: -1748083952
+      spriteID: 018a68d324936c74cb39f98869613ec5
+      internalID: 1606580552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VendingWalkUp4
+      name: EnemySheet_3
       rect:
         serializedVersion: 2
         x: 768
-        y: 1023
+        y: 1023.2
         width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db0d39c09b03edf48828fafd2124b05e
-      internalID: -42712678
+      spriteID: bc0c5f2845c935b48a1c0ca6286f1af5
+      internalID: -1894275959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VendingWalkDown1
+      name: EnemySheet_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 767
+        y: 768.2
         width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6fc3fb5d1b1e324f86708848f13e469
-      internalID: 1512698487
+      spriteID: ace06be4500805a4bbbfde9e6137cc57
+      internalID: 604121398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VendingWalkDown2
+      name: EnemySheet_5
       rect:
         serializedVersion: 2
         x: 256
-        y: 767
+        y: 768.2
         width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 935271a65e597684eae16593cc6fe902
-      internalID: 595805594
+      spriteID: 73c132178c5b9004b9aedb7fb5111a4f
+      internalID: -1740425769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VendingWalkDown3
+      name: EnemySheet_6
       rect:
         serializedVersion: 2
         x: 512
-        y: 767
+        y: 768.2
         width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcbfc028f6d21904e9f66b5c901514bf
-      internalID: -1433570791
+      spriteID: 6b4ed9b2706866a4f82c3d70fc4989db
+      internalID: 455618605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VendingWalkDown4
+      name: EnemySheet_7
       rect:
         serializedVersion: 2
         x: 768
-        y: 767
+        y: 768.2
         width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0c6c08d1b7966f4bb979c99c6413db8
-      internalID: -2143572587
+      spriteID: 07bb112dd489da146a7bb4d5eec62208
+      internalID: -258046307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VendingWalkSide1
+      name: EnemySheet_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 511
+        y: 513.2
         width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f765b0dece0cf1b41a2a668641a53935
-      internalID: -1496832482
+      spriteID: fae60f567429d0d4494c2a8c5a9a596d
+      internalID: -1411622683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VendingWalkSide2
+      name: EnemySheet_9
       rect:
         serializedVersion: 2
         x: 256
-        y: 508
+        y: 513.2
         width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3c2aa282be26094b90a64f09345ef5d
-      internalID: 701368989
+      spriteID: 67d32e6ec66db66478f7877482680e45
+      internalID: -253140575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VendingWalkSide3
+      name: EnemySheet_10
       rect:
         serializedVersion: 2
         x: 512
-        y: 511
+        y: 513.2
         width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47f57cebacc0f0a4c818364f5f8f57ef
-      internalID: 280560359
+      spriteID: 423df831b32f4f443bb1160f8b199c3b
+      internalID: 1644857448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VendingWalkSide4
+      name: EnemySheet_11
       rect:
         serializedVersion: 2
         x: 768
-        y: 511
+        y: 513.2
         width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4540297a1e549c43a1aa8b13a114ca8
-      internalID: -173813782
+      spriteID: 7ff95a345be608f459b2669b394edd33
+      internalID: 343388292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VendingSide
+      name: EnemySheet_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 255
+        y: 258.2
         width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df6e3ad5528f7df409e4c95f49a04890
-      internalID: -1982502984
+      spriteID: 0968608b804b1a34999bfc515b5210f2
+      internalID: 126739800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VendingFront
+      name: EnemySheet_13
       rect:
         serializedVersion: 2
         x: 256
-        y: 255
+        y: 258.2
         width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e80d616d3744e9f498ce1e498f42075b
-      internalID: -1149812464
+      spriteID: 50cc62f24e8ddc04fa5253bf3d48b334
+      internalID: 760069285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VendingBack
+      name: EnemySheet_14
       rect:
         serializedVersion: 2
         x: 512
-        y: 255
+        y: 258.2
         width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69207a4f4e6205547bdcb28cec57eb64
-      internalID: 1371606927
+      spriteID: f713fd97d2a981f4da6cf82f7982f360
+      internalID: 1560199672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VendingWin1
+      name: EnemySheet_15
       rect:
         serializedVersion: 2
         x: 768
-        y: 255
+        y: 258.2
         width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2637b0a0729ff47469baec63221e7900
-      internalID: -2037445695
+      spriteID: c6c8e5f450722a148b1db4ba320f70a1
+      internalID: 1675805402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.199997
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1881b2163ff6e40b3d481c16992a19
+      internalID: -601164559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySheet_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3.199997
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c1a2095cc3d8941a1204532b05bd7b
+      internalID: 494459019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySheet_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3.199997
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfbca52664bd944dbdf64d9f80d8cd7
+      internalID: -168221814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySheet_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3.199997
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6d53f63b45d8d4a878159065ab78d3
+      internalID: -902868390
       vertices: []
       indices: 
       edges: []
@@ -456,22 +540,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      VendingBack: 1371606927
-      VendingFront: -1149812464
-      VendingSide: -1982502984
-      VendingWalkDown1: 1512698487
-      VendingWalkDown2: 595805594
-      VendingWalkDown3: -1433570791
-      VendingWalkDown4: -2143572587
-      VendingWalkSide1: -1496832482
-      VendingWalkSide2: 701368989
-      VendingWalkSide3: 280560359
-      VendingWalkSide4: -173813782
-      VendingWalkUp1: 878118743
-      VendingWalkUp2: 541123909
-      VendingWalkUp3: -1748083952
-      VendingWalkUp4: -42712678
-      VendingWin1: -2037445695
+      EnemySheet_0: -909126937
+      EnemySheet_1: -2064392580
+      EnemySheet_10: 1644857448
+      EnemySheet_11: 343388292
+      EnemySheet_12: 126739800
+      EnemySheet_13: 760069285
+      EnemySheet_14: 1560199672
+      EnemySheet_15: 1675805402
+      EnemySheet_16: -601164559
+      EnemySheet_17: 494459019
+      EnemySheet_18: -168221814
+      EnemySheet_19: -902868390
+      EnemySheet_2: 1606580552
+      EnemySheet_3: -1894275959
+      EnemySheet_4: 604121398
+      EnemySheet_5: -1740425769
+      EnemySheet_6: 455618605
+      EnemySheet_7: -258046307
+      EnemySheet_8: -1411622683
+      EnemySheet_9: -253140575
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
